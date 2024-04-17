@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkFraud",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_maxAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "limitBetting",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AntiFraudContract.sol": "AntiFraudContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AntiFraudContract.sol": {
+			"keccak256": "0xca1aad5425e4f5ae84fd35304b06b78f86963869ff890b3715627c2c061ed3f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12b293f6e90233277e1d566e20b0b91c3ff7a9a0c75bacb7bedb5ced640b451c",
+				"dweb:/ipfs/QmUfDHndfVLYdpAPT76pbS41yLbi4K6THL5noZjB6Jg5nU"
+			]
+		}
+	},
+	"version": 1
+}
